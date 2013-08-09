@@ -10,3 +10,4 @@ Grigs-b has successfully installed Git onto his laptop and is not a failure at c
 - Andrew Thornton
 - Austin Garbelman
 - Ryan Grigsby
+- Ben Frye
