@@ -15,7 +15,7 @@ public class Hex {
 	public int population;
 	public string type="";
 	public Material material;
-	public Point position = Point(0,0);
+	//public Point position = Point(0,0);
 	//public Player owner;
 	public Object resident;	//Creature or Card instead of Object?
 	public Object[] structures; //Strucutre or Card instead of Object?
