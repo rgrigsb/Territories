@@ -130,27 +130,32 @@ CalculateDistance();
 function UpdateCamera(){
 
 	pos = Cam1.ScreenToViewportPoint(MousePos);
+	vert = Input.GetAxis("Vertical");
+	horiz = Input.GetAxis("Horizontal");
 
-	if(pos.x >= 1){
+	if(pos.x >= 1 || horiz > 0){
 		pos.x = 1;
 		MoveVector.x = 1;
-	}else if(pos.x <= 0){
+	}else if(pos.x <= 0 || horiz < 0){
 		pos.x = 0;
 		MoveVector.x = -1;
 	}else{
 		MoveVector.x = 0;
 	}
 	
-	if(pos.y >= 1){
+	if(pos.y >= 1 || vert > 0){
 		pos.y = 1;
 		MoveVector.z = 1;
-	}else if(pos.y <= 0){
+	}else if(pos.y <= 0 || vert < 0){
 		pos.y = 0;
 		MoveVector.z = -1;
 	}else{
 		MoveVector.z = 0;
 	}
 
+	// Scroll wheel zoom?
+	MoveVector.y = Input.GetAxis("Mouse ScrollWheel") * -1000;
+	
 Cam1T.Translate (MoveVector * (CameraSpeed * Time.deltaTime), Space.World);
 }
 
