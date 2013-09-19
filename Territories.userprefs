@@ -1,8 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Rotator.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ForceX Hex Grid\Scripts\FX_Map_Manager.js">
     <Files>
-      <File FileName="Assets\Scripts\Rotator.cs" Line="1" Column="1" />
+      <File FileName="Assets\ForceX Hex Grid\Scripts\FX_Map_Manager.js" Line="157" Column="57" />
+      <File FileName="Assets\Scripts\Hex.cs" Line="18" Column="4" />
+      <File FileName="Assets\Scripts\CardBakeScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CardData.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
