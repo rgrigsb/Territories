@@ -1,3 +1,5 @@
+//import Territories;
+
 var EnableWrapping : boolean;
 var KeepSymmetrical : boolean;
 var Cam1 : Camera;
@@ -31,6 +33,7 @@ if(EnableWrapping){
 }
 GetHexProperties();
 GenerateMap();
+//GeneratePlayers();
 }
 
 function Start(){

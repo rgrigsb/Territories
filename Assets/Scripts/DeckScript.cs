@@ -3,11 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using MiniJSON;
-
+/*
 public class DeckScript : MonoBehaviour {
 	public GameObject card_prefab;
 	public GameObject card_facade_prefab;
-	List<int> cards_ = new List<int>();
+	List<Card> cards_ = new List<Card>();
 	int top_card_id_;
 	int bottom_card_id_;
 	int num_cards_;
@@ -134,6 +134,7 @@ public class DeckScript : MonoBehaviour {
 	}
 	
 	public void AddCard(bool top, int id){
+		/*
 		if(top){
 			cards_.Insert(0, id);
 		} else {
@@ -142,6 +143,7 @@ public class DeckScript : MonoBehaviour {
 		++num_cards_;
 		RegenerateEndCardIDs();
 		RegenerateEndCards();
+		
 	}
 	
 	// Update is called once per frame
@@ -185,3 +187,4 @@ public class DeckScript : MonoBehaviour {
 		}
 	}	
 }
+ */

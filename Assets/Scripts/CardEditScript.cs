@@ -34,7 +34,7 @@ public class CardEditScript : MonoBehaviour {
 		CreateCard (GameObject.Find("card_spawn_back").transform);
 	}
 	
-	void OnGUI () {
+	void OnGUI () {/*
 		GUILayout.BeginArea(new Rect(30,30,300,300));
 		GUILayout.BeginHorizontal();
 		GUILayout.Label("Title: ");
@@ -71,6 +71,6 @@ public class CardEditScript : MonoBehaviour {
 			Test();
 		}
 		GUILayout.EndHorizontal();
-		GUILayout.EndArea();
+		GUILayout.EndArea();*/
 	}
 }

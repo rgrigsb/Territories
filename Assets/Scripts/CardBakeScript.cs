@@ -3,14 +3,13 @@ using System.Collections;
 
 public class CardBakeScript : MonoBehaviour {
 	public Texture2D[] content_textures;
-	public Texture2D[] dice_textures;
 	public Material cutout;
 	public CardData card_data_ = new CardData();
 	
 	public void SetCardData(CardData card_data){
 		card_data_ = card_data;
 	}
-	
+	/*
 	public Material Bake() {
 		var title_text = transform.FindChild("Title").GetComponent<TextMesh>();
 		title_text.text = card_data_.title;
@@ -84,4 +83,5 @@ public class CardBakeScript : MonoBehaviour {
 
 		return new_material;
 	}
+	*/
 }
