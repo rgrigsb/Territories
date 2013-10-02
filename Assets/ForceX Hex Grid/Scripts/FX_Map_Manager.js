@@ -9,6 +9,7 @@ var MapSize : Vector2;
 var CurrentHex : Vector3;
 var GoToHex : Vector3;
 var Distance : int;
+var InputEnabled : boolean = true;
 
 private var MoveVector : Vector3;
 private var pos : Vector3;
