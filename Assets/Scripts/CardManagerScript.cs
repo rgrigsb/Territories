@@ -14,7 +14,7 @@ public class CardManagerScript : MonoBehaviour {
 	Dictionary<string, List<int>> decks_ = new Dictionary<string, List<int>>();
 		
 	// Use this for initialization
-	void Start () {
+	void Start () {/*
 		foreach(Texture texture in back_textures){
 			var mat = new Material(cutout);
 			mat.mainTexture = texture;
@@ -51,17 +51,9 @@ public class CardManagerScript : MonoBehaviour {
 				if(card_dict.ContainsKey("Target")){
 					card_data.target = (int)(long)card_dict["Target"];
 				}
-				card_data.cost = new Dictionary<int, int>();
+				card_data.cost = new Dictionary<Resource, int>();
 				if(card_dict.ContainsKey("Cost")){
-					card_data.cost = (Dictionary<int,int>)card_dict["Cost"];
-				}
-				card_data.points = 0;
-				if(card_dict.ContainsKey("Points")){
-					card_data.points = (int)(long)card_dict["Points"];
-				}
-				card_data.price = 0;
-				if(card_dict.ContainsKey("Price")){
-					card_data.price = (int)(long)card_dict["Price"];
+					card_data.cost = (Dictionary<Resource,int>)card_dict["Cost"];
 				}
 				card_data.image = 0;
 				if(card_dict.ContainsKey("Image")){
@@ -79,10 +71,10 @@ public class CardManagerScript : MonoBehaviour {
 					deck_list.Add(cards_.Count);
 				}
 				card_bake_object.GetComponent<CardBakeScript>().SetCardData(card_data);
-				card_data.material = card_bake_object.GetComponent<CardBakeScript>().Bake();
+				//card_data.material = card_bake_object.GetComponent<CardBakeScript>().Bake();
 				cards_.Add(card_data);
 			}
-		}
+		}*/
 	}
 	
 	public List<int> GetDeckCards(string name){

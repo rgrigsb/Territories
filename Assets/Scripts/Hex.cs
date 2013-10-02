@@ -11,7 +11,7 @@ public class Point {
 }
 
 public class Hex {
-	public enum resourceGen { Gold, Wood, Iron, light, dark, water };	// Push this out to resource.cs
+	public Resource tileResource;
 	public int population;
 	public string type="";
 	public Material material;
