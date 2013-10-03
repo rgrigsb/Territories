@@ -50,10 +50,13 @@
      <Compile Include="Assets\Image Effects\ColorCorrectionCurves.js" />
      <Compile Include="Assets\Image Effects\PostEffectsBase.js" />
      <Compile Include="Assets\Image Effects\Vignetting.js" />
+     <None Include="Assets\NGUI\Resources\Shaders\Depth.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\GlowConeTap.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
      <None Include="Assets\Image Effects\_Sources\Shaders\ColorCorrectionCurves.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\BlurEffectConeTaps.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
@@ -62,14 +65,17 @@
      <None Include="Assets\Image Effects\_Sources\Shaders\ContrastComposite.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\ColorCorrection3DLut.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\MotionBlur.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
      <None Include="Assets\Image Effects\_Sources\Shaders\BlendModesOverlay.shader" />
      <None Include="Assets\Shaders\ReflectiveDiffuseSpecTransp.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\VignettingShader.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
      <None Include="Assets\Image Effects\_Sources\Shaders\frag_ao.cginc" />
      <None Include="Assets\Image Effects\_Sources\Shaders\CreaseApply.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
@@ -77,6 +83,9 @@
      <None Include="Assets\Image Effects\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\RadialBlur.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
      <None Include="Assets\Image Effects\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\NoiseAndGrainDX11.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
@@ -87,12 +96,18 @@
      <None Include="Assets\Image Effects\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
      <None Include="Assets\Shaders\DiffuseReflectiveShader.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\NGUI\ReadMe.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (HardClip).shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored Overlay.shader" />
      <None Include="Assets\Shaders\ReflectiveDiffuseSpec.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\NGUI\Examples\Other\English.txt" />
      <None Include="Assets\Image Effects\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\_Antialiasing\NFAA.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\SunShaftsComposite.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\GlobalFog.shader" />
@@ -102,7 +117,10 @@
      <None Include="Assets\Image Effects\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\_DepthOfField\TiltShift.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+     <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
@@ -110,15 +128,20 @@
      <None Include="Assets\Image Effects\_Sources\Shaders\MotionBlurClear.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\GlowEffectDownsample.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
      <None Include="Assets\Image Effects\_Sources\Shaders\ShowAlphaChannel.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\CameraMotionBlurDX11.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\CameraMotionBlur.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\SepiaToneEffect.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\SimpleClear.shader" />
      <None Include="Assets\Image Effects\_Sources\Shaders\ColorCorrectionEffect.shader" />
+ <Reference Include="Assets\NGUI\DLLs\NGUI">
+ <HintPath>Assets\NGUI\DLLs\NGUI.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
