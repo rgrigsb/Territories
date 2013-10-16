@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour {
 	public int mapSize = 11;
 	
 	List <List<Tile>> map = new List<List<Tile>>();
-	List <PlayerBen> playerList = new List<PlayerBen>();
+	List <Player> playerList = new List<Player>();
 	int currentPlayerIndex = 0;
 	
 	void Awake() {
@@ -57,13 +57,13 @@ public class GameManager : MonoBehaviour {
 	}
 	
 	void generatePlayers() {
-		UserPlayerBen player;
-		player = ((GameObject)Instantiate(UserPlayerPrefab, new Vector3(0 - Mathf.Floor(mapSize/2),1,-0 + Mathf.Floor(mapSize/2)), Quaternion.Euler(new Vector3()))).GetComponent<UserPlayerBen>();
+		UserPlayer player;
+		player = ((GameObject)Instantiate(UserPlayerPrefab, new Vector3(0 - Mathf.Floor(mapSize/2),1,-0 + Mathf.Floor(mapSize/2)), Quaternion.Euler(new Vector3()))).GetComponent<UserPlayer>();
 		playerList.Add(player);
 		
 		
-		AIPlayerBen ai;
-		ai = ((GameObject)Instantiate(AIPlayerPrefab, new Vector3((mapSize-1) - Mathf.Floor(mapSize/2),1,-(mapSize-1) + Mathf.Floor(mapSize/2)), Quaternion.Euler(new Vector3()))).GetComponent<AIPlayerBen>();
+		AIPlayer ai;
+		ai = ((GameObject)Instantiate(AIPlayerPrefab, new Vector3((mapSize-1) - Mathf.Floor(mapSize/2),1,-(mapSize-1) + Mathf.Floor(mapSize/2)), Quaternion.Euler(new Vector3()))).GetComponent<AIPlayer>();
 		playerList.Add(ai);
 	}
 }
