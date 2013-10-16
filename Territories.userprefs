@@ -1,22 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GuiButton.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/CardEditScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Player.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/UserPlayer.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/AIPlayer.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Deck.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MobCard.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/DeckScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/CardManagerScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/CardBakeScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Card.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Hex.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/CardData.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Resource.cs" Line="1" Column="1" />
-      <File FileName="Assets/ForceX Hex Grid/Scripts/FX_Map_Manager.js" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GuiButton.cs" Line="3" Column="15" />
+      <File FileName="Assets\Scripts\GameManager.cs" Line="34" Column="25" />
+      <File FileName="Assets\Scripts\Tile.cs" Line="29" Column="48" />
+      <File FileName="Assets\Scripts\PlayerBen.cs" Line="9" Column="40" />
+      <File FileName="Assets\Scripts\UserPlayerBen.cs" Line="23" Column="41" />
+      <File FileName="Assets\Scripts\AIPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AIPlayerBen.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
